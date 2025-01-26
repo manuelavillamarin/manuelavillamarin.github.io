@@ -1,59 +1,79 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programmation</title>
     <style>
         body {
-            font-family: calibri, times new roman;
-            background-color: #dcf2ff;
+            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start; /* Cambié de center a flex-start para mover el contenido más arriba */
-            height: 100vh;
+            padding: 0;
+            background-color: #fcfef1;
+            color: #008000;
             text-align: center;
+            font-size: 1.2cm;
         }
-
-        h1 {
-            color: #6560a6;
-            font-size: 2.5em;
+        header {
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.1);
         }
-
-        ul {
+        header h1 {
+            margin: 0;
+            font-size: 2cm;
+        }
+        main {
+            margin: 10px auto;
+            padding: 10px;
+            max-width: 800px;
+        }
+        main ul {
             list-style-type: none;
             padding: 0;
         }
-
-        ul li {
-            margin: 10px 0;
+        main ul li {
+            margin: 5px 0;
         }
-
-        ul li a {
-            color: #8270e7;
+        main ul li a {
+            color: #d52d5d;
             text-decoration: none;
-            font-size: 1.2em;
+            font-size: 0.8cm;
+            font-weight: bold;
         }
-
-        ul li a:hover {
+        main ul li a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+        footer a {
+            color: #008000;
+            text-decoration: none;
+        }
+        footer a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div>
-        <h1>Activités de programmation SNT</h1>
-        <p>Activités de programmation faites en codeskulptor</p>
+    <header>
+        <h1>Programmation</h1>
+    </header>
+    <main>
         <ul>
-            <li><a href="https://docs.google.com/document/d/e/2PACX-1vTk10JZUfeT_l_22A0L2qm3D2f71jkLHb1ebEKelikp9hCORUT2XN4RcriA8x6rmtMmcFNyrxncGbkJ/pub" target="_blank">Mon document</a></li>
-           <li><a href="https://docs.google.com/document/d/e/2PACX-1vQbodGnr9rTvCFFaZNEY9JYpZiav-9WyR0k6CNVrBkx0cCxye3uIFLChcm9CYKcH05FQkjdaPGQ7qyu/pub" target="_blank">Mon document</a></li>
-           <li><a href="https://docs.google.com/document/d/e/2PACX-1vTDwp4M1wAuvSaKpKtHUkjDYixy1hWxzN1g0LmEQOcNXBzRZn0riqrqgWGr4Q3-Mu7T8RUTBqJf8fxY/pub" target="_blank">Mon document</a></li>
-           <li><a href="https://docs.google.com/document/d/e/2PACX-1vR41Hk3sSKx79F1E1cL4XxBk1HZUa-hn20VbDdsRr6VnyFujha1e0XJ3YCCc-klVFtQOOBqxahC8vN2/pub" target="_blank">Mon document</a></li>
-           <li><a href="https://docs.google.com/document/d/e/2PACX-1vToA9vUUTWpkztWj3GHmeTMbkZVUNcnc9HKQJjW1-kjEFaAswZxKwVfM9c6WXHTiloqoT2V2Yf9UZz2/pub" target="_blank">Mon document</a></li>
-           <li><a href="https://docs.google.com/document/d/e/2PACX-1vRW_zNGPTKUDn494kL9jGHNdDrW8YoBC-zs7T8BmFihXbnlmpK8Yf9h3K-Sd6Mtqf43byAvLvkPuG5L/pub" target="_blank">Mon document</a></li>
-           <li><a href="https://docs.google.com/document/d/e/2PACX-1vRq-tCvq925QW-6zONzpOe9CZLfr7LHIxqLONm46a1iroQ-s2Tzsg-VVnwHIoWxu-ll-R2wio0nZqbO/pub" target="_blank">Mon document</a></li>
+            <li><a href="https://docs.google.com/document/d/e/2PACX-1vTk10JZUfeT_l_22A0L2qm3D2f71jkLHb1ebEKelikp9hCORUT2XN4RcriA8x6rmtMmcFNyrxncGbkJ/pub" target="_blank">Activité 1</a></li>
+            <li><a href="https://docs.google.com/document/d/e/2PACX-1vQbodGnr9rTvCFFaZNEY9JYpZiav-9WyR0k6CNVrBkx0cCxye3uIFLChcm9CYKcH05FQkjdaPGQ7qyu/pub" target="_blank">Activité séquence 2 et 3</a></li>
+            <li><a href="https://docs.google.com/document/d/e/2PACX-1vTDwp4M1wAuvSaKpKtHUkjDYixy1hWxzN1g0LmEQOcNXBzRZn0riqrqgWGr4Q3-Mu7T8RUTBqJf8fxY/pub" target="_blank">Travail sur les fonctions</a></li>
+            <li><a href="https://docs.google.com/document/d/e/2PACX-1vR41Hk3sSKx79F1E1cL4XxBk1HZUa-hn20VbDdsRr6VnyFujha1e0XJ3YCCc-klVFtQOOBqxahC8vN2/pub" target="_blank">Activité sur l'instruction conditionnelle if</a></li>
+            <li><a href="https://docs.google.com/document/d/e/2PACX-1vToA9vUUTWpkztWj3GHmeTMbkZVUNcnc9HKQJjW1-kjEFaAswZxKwVfM9c6WXHTiloqoT2V2Yf9UZz2/pub" target="_blank">Activité sur la boucle bornée for</a></li>
+            <li><a href="https://docs.google.com/document/d/e/2PACX-1vRW_zNGPTKUDn494kL9jGHNdDrW8YoBC-zs7T8BmFihXbnlmpK8Yf9h3K-Sd6Mtqf43byAvLvkPuG5L/pub" target="_blank">Activité sur la boucle non bornée while</a></li>
+            <li><a href="https://docs.google.com/document/d/e/2PACX-1vRq-tCvq925QW-6zONzpOe9CZLfr7LHIxqLONm46a1iroQ-s2Tzsg-VVnwHIoWxu-ll-R2wio0nZqbO/pub" target="_blank">Activité sur les fonctions</a></li>
         </ul>
+    </main>
+    <footer>
+        <p><a href="index.html">Retour à l'accueil</a></p>
+    </footer>
 </body>
 </html>
