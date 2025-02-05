@@ -71,7 +71,7 @@
         <h1>Internet</h1>
     </header>
     <main>
-       <h2>Les protocoles TCP et IP</h2>
+       <h2>Le DNS</h2>
         <p>Regardez cette vidéo pour en savoir plus.</p>
       <div class="video">
 <iframe width="560" height="315" 
